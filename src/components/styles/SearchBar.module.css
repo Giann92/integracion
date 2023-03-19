@@ -1,0 +1,27 @@
+.searchContainer{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+input{
+    background-color: chartreuse;
+    border-radius: 8px 0 0 8px;
+    font-family: cursive;
+    
+}
+
+button{
+    border-radius: 0 8px 8px 0;
+    border-color: yellowgreen;
+    color: black;
+    background-color:limegreen;
+   
+}
+
+button:hover{
+    color: black;
+    background-color: limegreen;
+    cursor: pointer;
+    transform: scale(1.1);
+}

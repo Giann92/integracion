@@ -1,0 +1,74 @@
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 270px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: chartreuse;
+    transition: all 0.5s ease;
+    box-shadow: 0 0 20px rgba(0,255, 255, 0.6);
+    
+
+}
+ 
+.Card:hover{
+    transform:  scale(1.1);
+}
+ .btnContainer{
+    display: flex;
+    justify-content: flex-end;
+ }
+ .btn{
+    background-color: red;
+    width: 25px;
+    border-radius: 15px;
+    margin: 5px;
+    align-self: flex-end;
+}
+
+.btnColor{
+    color: white;
+}
+
+.btn:hover{
+    color: red;
+    background-color: white;
+    transform: scale(1.1);
+}
+.img{
+    width: 200px;
+    border-radius: 10px 10px 0 0;
+}
+
+.imgContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px; 
+    align-items: center;
+}
+
+.name{
+ background-color: rgba(0,255, 255, 0.6);
+ position: absolute;
+ margin-bottom: 0px;
+}
+
+.propsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    border-radius:  0px 0px 15px 15px;
+    margin: 0px;
+}
+.propsContainer h2{
+    margin: 0;
+   
+
+ }
+.link{
+    text-decoration: none;
+    color: inherit;
+}

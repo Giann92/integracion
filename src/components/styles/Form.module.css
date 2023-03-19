@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+  }
+  
+  .input {
+    width: 50%;
+    height: 30px;
+    margin: 0.5rem;
+    border-radius: 15px;
+  }
+  
+  .button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(170, 255, 100);
+    cursor: pointer;
+    border-radius: 15px;
+    margin-bottom: 10px;
+  }
+  .img{
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 120%;
+}
+
+.warnig{
+   color: red;
+}
