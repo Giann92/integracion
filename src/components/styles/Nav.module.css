@@ -1,21 +1,21 @@
-.container{
-display: grid;
-grid-template-columns: 20% 20% 55%;
-background-color: rebeccapurple;
-padding: 17px;
-border-radius: 25px;
-margin-bottom: 20px;
+.container {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 40% 10%;
+    background-color: rgb(19, 158, 54);
+    padding: 17px;
+    border-radius: 25px;
+    margin-bottom: 5%;
 
 }
 
-.active{
+.active {
     -webkit-text-stroke: 1px black;
-    color: chartreuse ;
+    color: chartreuse;
     text-underline-offset: 5px;
     text-decoration-color: lawngreen;
 }
 
-.disable{
+.disable {
     text-decoration: none;
     color: inherit;
 }

@@ -16,5 +16,6 @@ const validLettersAndNumbers = new RegExp(/^(?=.*[a-z])(?=.*[0-9])/);
     } if(inputs.password.length < 6 || inputs.password.length > 10){
         errors.password= "La contraseña debe tener al entre 6 y 10 caracteres"
     }
-    return errors;
+    return errors;   
+   
 }

@@ -6,7 +6,8 @@ import { NavLink } from "react-router-dom";
 const NavLinkMe = ({to , children,...props}) => {
   return(
 
-  <NavLink {...props} to ={to}
+  <NavLink 
+  {...props} to ={to}
   className={({isActive}) => isActive ? s.active : s.disable}
   >
     {children}
@@ -19,10 +20,11 @@ export default function Nav(props){
         <div className={s.container}>
           <NavLinkMe to = "/home">Home</NavLinkMe>
           <NavLinkMe to ="/about"> About </NavLinkMe>
+          <NavLinkMe to ="/favorites"> Favorite</NavLinkMe>
         <SearchBar
           onSearch={(characterID) => props.onSearch(characterID)}
         />
       </div>
      
-    )
+    );
 }

@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color:#6eb478;
   }
   
   .input {
@@ -33,3 +33,32 @@
 .warnig{
    color: red;
 }
+.social{
+    margin-top: 30px;
+    display: flex;
+  }
+  .social div{
+    background: red;
+    width: 150px;
+    border-radius: 3px;
+    padding: 5px 10px 10px 5px;
+    background-color: rgba(255,255,255,0.27);
+    color: #eaf0fb;
+    text-align: center;
+  }
+  .social div:hover{
+    background-color: rgba(255,255,255,0.47);
+    cursor: pointer;
+  }
+  .social .fb{
+    background-color: blue;
+    margin-left: 25px;
+  }
+  .social .go{
+    background-color:red;
+    margin-left: 25px;
+  }
+  .social i{
+    margin-right: 4px;
+  
+  }
